@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
+import {GlobalAppProviders} from "./providers/global-app-providers";
 
-function App() {
-  return <div className="App"></div>;
-}
+const App = () => (
+    <GlobalAppProviders></GlobalAppProviders>
+)
 
 export default App;
