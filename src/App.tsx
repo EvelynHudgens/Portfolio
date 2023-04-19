@@ -1,9 +1,12 @@
 import React from "react";
-import "./App.css";
+import {AppLayout} from "./components";
 import {GlobalAppProviders} from "./providers/global-app-providers";
+import './App.css';
 
 const App = () => (
-    <GlobalAppProviders></GlobalAppProviders>
+    <GlobalAppProviders>
+        <AppLayout></AppLayout>
+    </GlobalAppProviders>
 )
 
 export default App;
